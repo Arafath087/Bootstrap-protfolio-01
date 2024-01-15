@@ -10,6 +10,7 @@
 .navbar li a {
     color: #ffff;
 }
+
 .navbar li a:hover {
     color: #1ABC9C;
 }
@@ -49,6 +50,7 @@
     width: 250px;
     border-radius: 50%;
 }
+
 .hero_content h1 {
     text-transform: uppercase;
     font-size: 70px;
@@ -74,6 +76,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
 .hero_content p {
     font-size: 25px;
 }
@@ -86,12 +89,14 @@ Protfolio section here
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .text-center {
     text-transform: uppercase;
     color: #2C3E50;
     font-size: 55px;
     font-weight: 700;
 }
+
 .divider_line2 {
     border: 3px solid;
     width: 8%;
@@ -100,13 +105,14 @@ Protfolio section here
 
 
 /* 
-
+Portfolio section
 */
 
-.col img {
-    max-width: 100%;
-    height: auto;
+.portfolio-img img {
+    height: 250px;
+    width: auto;
     border-radius: 10px;
+    margin-top: 85px;
 }
 
 
@@ -119,6 +125,7 @@ About section here
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .divider_line3 {
     border: 3px solid;
     width: 10%;
@@ -129,10 +136,12 @@ About section here
     font-size: 50px;
     font-weight: 600;
 }
+
 .about-content p {
     font-size: 20px;
     font-weight: 500;
 }
+
 .button-content {
     padding: 15px 40px !important;
     font-size: 22px !important;
@@ -188,11 +197,11 @@ Contact Section Here
     color: #ffff;
     transition: all .3s;
 }
+
 .submit-btn:hover {
     background-color: #282828 !important;
     color: #ffff !important;
 }
-
 
 
 /* 
@@ -208,6 +217,7 @@ Footer section here
 .footer-content h4 {
     font-weight: 700;
 }
+
 .footer-content h5 {
     padding: 0px 90px;
 }
@@ -218,6 +228,7 @@ Footer section here
     align-items: center;
     gap: 10px;
 }
+
 .footer-contact-icon i {
     padding: 15px;
     border: 2px solid;
@@ -226,6 +237,7 @@ Footer section here
     transition: all .3s;
     cursor: pointer;
 }
+
 .footer-contact-icon i:hover {
     background-color: #ffff;
     color: #282828;
@@ -238,6 +250,31 @@ Footer section here
     padding: 20px 0px;
     text-align: center;
 }
+
 .footer-comment p {
     color: #ffff;
+}
+
+/* 
+form_outline
+*/
+.form-control:focus {
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+textarea:focus {
+    outline: none !important;
+}
+
+/* 
+mobile device
+*/
+@media(max-width:800px) {
+    .contact-form-area {
+        width: 90%;
+        margin: auto;
+    }
 }
